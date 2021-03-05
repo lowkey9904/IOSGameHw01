@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BA6FEAD25F24AD600E71E4A /* ResultScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA6FEAC25F24AD600E71E4A /* ResultScore.swift */; };
 		3BDD6D2E25EF3CDC0049FE09 /* IOSGameHw01App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD6D2D25EF3CDC0049FE09 /* IOSGameHw01App.swift */; };
 		3BDD6D3025EF3CDC0049FE09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD6D2F25EF3CDC0049FE09 /* ContentView.swift */; };
 		3BDD6D3225EF3CDF0049FE09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD6D3125EF3CDF0049FE09 /* Assets.xcassets */; };
 		3BDD6D3525EF3CDF0049FE09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD6D3425EF3CDF0049FE09 /* Preview Assets.xcassets */; };
+		3BDD6D3F25EF49230049FE09 /* QA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD6D3E25EF49220049FE09 /* QA.swift */; };
+		3BDD6D4C25F232E80049FE09 /* w5.TTC in Resources */ = {isa = PBXBuildFile; fileRef = 3BDD6D4B25F232E80049FE09 /* w5.TTC */; };
+		3BDD6D5025F234DC0049FE09 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD6D4F25F234DC0049FE09 /* Counter.swift */; };
+		3BDD6D5325F23A610049FE09 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD6D5225F23A610049FE09 /* FirstView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3BA6FEAC25F24AD600E71E4A /* ResultScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScore.swift; sourceTree = "<group>"; };
 		3BDD6D2A25EF3CDC0049FE09 /* IOSGameHw01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSGameHw01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BDD6D2D25EF3CDC0049FE09 /* IOSGameHw01App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSGameHw01App.swift; sourceTree = "<group>"; };
 		3BDD6D2F25EF3CDC0049FE09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3BDD6D3125EF3CDF0049FE09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BDD6D3425EF3CDF0049FE09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3BDD6D3625EF3CDF0049FE09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BDD6D3E25EF49220049FE09 /* QA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QA.swift; sourceTree = "<group>"; };
+		3BDD6D4B25F232E80049FE09 /* w5.TTC */ = {isa = PBXFileReference; lastKnownFileType = file; path = w5.TTC; sourceTree = "<group>"; };
+		3BDD6D4F25F234DC0049FE09 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		3BDD6D5225F23A610049FE09 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				3BDD6D2D25EF3CDC0049FE09 /* IOSGameHw01App.swift */,
+				3BDD6D5225F23A610049FE09 /* FirstView.swift */,
 				3BDD6D2F25EF3CDC0049FE09 /* ContentView.swift */,
+				3BA6FEAC25F24AD600E71E4A /* ResultScore.swift */,
+				3BDD6D3E25EF49220049FE09 /* QA.swift */,
+				3BDD6D4F25F234DC0049FE09 /* Counter.swift */,
+				3BDD6D4B25F232E80049FE09 /* w5.TTC */,
 				3BDD6D3125EF3CDF0049FE09 /* Assets.xcassets */,
 				3BDD6D3625EF3CDF0049FE09 /* Info.plist */,
 				3BDD6D3325EF3CDF0049FE09 /* Preview Content */,
@@ -126,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BDD6D4C25F232E80049FE09 /* w5.TTC in Resources */,
 				3BDD6D3525EF3CDF0049FE09 /* Preview Assets.xcassets in Resources */,
 				3BDD6D3225EF3CDF0049FE09 /* Assets.xcassets in Resources */,
 			);
@@ -138,8 +154,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BDD6D5025F234DC0049FE09 /* Counter.swift in Sources */,
 				3BDD6D3025EF3CDC0049FE09 /* ContentView.swift in Sources */,
 				3BDD6D2E25EF3CDC0049FE09 /* IOSGameHw01App.swift in Sources */,
+				3BDD6D3F25EF49230049FE09 /* QA.swift in Sources */,
+				3BDD6D5325F23A610049FE09 /* FirstView.swift in Sources */,
+				3BA6FEAD25F24AD600E71E4A /* ResultScore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
